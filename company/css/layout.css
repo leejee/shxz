@@ -1,0 +1,398 @@
+.header {
+  height: 110px; 
+}
+
+.header-main {
+  width: 1000px;
+  margin: 0 auto; 
+}
+.header-main .logo {
+  padding: 10px; 
+}
+.header-main .welcome {
+  width: 282px;
+  height: 90px;
+  padding: 10px;
+  background: url(../images/logo2.png) no-repeat right;
+}
+
+/*------nav------*/
+
+.navcontainer{
+  width: 100%;
+  height: 40px;
+  background-color:#0085D0; 
+}
+.navcontainer .nav {
+  width: 1000px;
+  height: 40px;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color:#0085D0; 
+}
+.navcontainer .nav a {
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  padding:0 20px;
+  text-decoration: none;
+  float: left;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.navcontainer .nav a:hover{
+    color: #0085D0;
+    background-color: #ffffff;
+}
+
+/*nav active*/
+.active{
+    color: #0085D0;
+    background-color: #ffffff;
+}
+.normal{
+    color: #ffffff;
+    background-color: #0085D0;
+}
+
+ul#nav{ width:100%; height:60px; background:#00A2CA;margin:0 auto} 
+ul#nav li{display:inline; height:60px} 
+ul#nav li a{display:inline-block; padding:0 20px; height:60px; line-height:60px;
+ color:#FFF; font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:16px} 
+ul#nav li a:hover{background:#0095BB}/*设置鼠标滑过或悬停时变化的背景颜色*/ 
+
+/*------------------content------------------*/
+.content {
+  width:1000px;
+  margin:0 auto; 
+  height:auto; 
+  overflow:hidden;
+}
+
+/*left*/
+.content-left {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+.content-left h1 {
+    font-size: 39px;
+    line-height: 60px;
+    font-family: "Minijanxixingkai";
+    margin-bottom: 10px; 
+}
+
+.about {
+  color: #58595b;
+  font-size: 19px;
+  line-height: 30px;
+  font-family: "Minijanxixingkai"; }
+
+.video {
+  width: 785px;
+  height: 396px;
+  line-height: 396px;
+  background: #efeff0;
+  font-size: 19px;
+  color: #bcbec0;
+  font-family: "Minijanxixingkai";
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 17px; }
+
+.content-left h2 {
+  font-size: 39px;
+  line-height: 60px;
+  color: #717074;
+  font-family: "Hanyihei";
+  background: url(../images/icon_1.png) no-repeat 0 20px;
+  padding-left: 36px;
+  margin-bottom: 10px; }
+
+.content-left dl {
+  width: 154px;
+  height: 271px;
+  margin-right: 18px;
+  padding: 13px 14px;
+  float: left; }
+  .content-left dl dt {
+    display: block;
+    width: 154px;
+    font-family: "Hanyihei";
+    font-size: 32px;
+    text-align: center;
+    line-height: 32px; }
+    .content-left dl dt a {
+      color: white;
+      text-decoration: none; }
+  .content-left dl dd a {
+    display: block;
+    margin-top: 10px; }
+.content-left .help01 {
+  background: #fbb131; }
+.content-left .help02 {
+  background: #716fb3; }
+.content-left .help03 {
+  background: #f0483e; }
+.content-left .help04 {
+  background: #3fae49;
+  margin-right: 0; }
+
+/*right*/
+.content-right {
+  width: 306px;
+  float: right;
+  margin-top: 36px;
+  padding-right: 5px; }
+
+.content-right h2 {
+  width: 306px;
+  font-size: 33px;
+  line-height: 60px;
+  color: #717074;
+  font-family: "Hanyihei";
+  background: url(../images/icon_1.png) no-repeat left;
+  padding-left: 36px; }
+  .content-right h2 span {
+    font-weight: none;
+    font-family: "Hanyihei"; }
+
+.content-right-con {
+  width: 300px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.content-right-con p {
+margin-bottom: 10px;
+line-height: 32px;
+}
+.content-right-con p a {
+  color: #716fb2;
+  text-decoration: none;
+}
+
+
+/*------------------general------------------*/
+.general {
+  color: #58595b;
+  font-size: 24px;
+  line-height: 38px;
+  font-family: "Minijanxixingkai";
+  padding-bottom: 15px; }
+
+.general-title {
+  cursor: pointer; }
+
+.general ul, .ingredients ul, .products ul, .medical-conditions ul {
+  padding-bottom: 15px;
+  padding-left: 36px; }
+  .general ul li p, .ingredients ul li p, .products ul li p, .medical-conditions ul li p {
+    line-height: 40px;
+    font-family: "Hanyihei";
+    font-size: 26px;
+    font-color: #58595b; }
+  .general ul li span, .ingredients ul li span, .products ul li span, .medical-conditions ul li span {
+    line-height: 36px;
+    font-family: "Hanyihei";
+    font-size: 19px;
+    font-color: #58595b; }
+
+/*------------------general------------------*/
+.general ul p {
+  color: #fcb131; }
+
+/*------------------ingredients------------------*/
+.ingredients ul p {
+  color: #716fb2; }
+
+/*------------------products------------------*/
+.products ul p {
+  color: #ef473d; }
+
+/*------------------medical-conditions------------------*/
+.medical-conditions ul p {
+  color: #3fae49; }
+
+/*------------------footer------------------*/
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: #0085D0;
+}
+.footer .link {
+  width: 1000px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.footer .link a {
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+p#link{
+  float:right;
+}
+
+/*introduce*/
+.intro1{
+  width: 140px;
+  height: 140px;
+  margin-left: 40px;
+}
+.intro2{
+  width: 140px;
+  height: 140px;
+}
+.intro3{
+  width: 70px;
+  height: 70px;
+}
+.intro4{
+  width: 120px;
+  height: 120px;
+}
+.introFont{
+  text-indent:2em;
+  line-height:20px;
+}
+
+.honourCon{
+  width: 1000px;
+  margin: 0 auto; 
+  height:auto; 
+  overflow:hidden;
+  background-color:#ffffff;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.honourCon2{
+  width: 300px;
+  height:auto; 
+  overflow:hidden;
+  margin-top: 20px;
+  margin-bottom:20px;
+  float: left;
+  padding-left: 50px
+}
+.honourCon3{
+  width: 400px;
+  height:auto; 
+  overflow:hidden;
+  margin-top: 20px;
+  margin-bottom:20px;
+  float: left;
+}
+
+.map{
+  width:100%;
+  height:300px;
+  border:#ccc solid 1px;
+  font-size:12px
+}
+
+.contactBorder{
+  float:left;
+  width:1.5px;
+  height:135px;
+  background-color:#0085D0;
+  margin-left: 10px;
+}
+
+.index_p_style{
+    background-image: url("../images/p_pre.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left:20px;
+    font-size: 14px;
+}
+.index_p2_style{
+    padding-left:20px;
+    font-size: 14px;
+}
+.newsDate1{
+    font-size: 24px;
+    color: #ffffff;
+}
+.newsDate2{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.blueBg{
+    float: left;
+    background-image: url("../images/textbg_blue.png");
+    background-size:70px 70px;
+    width: 70px;
+    height: 70px;
+    background-repeat:no-repeat;
+}
+.blueBg a{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.grayBg{
+    background-image: url("../images/textbg_gray.png");
+}
+.grayBg a{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.blueBg2{
+    float: left;
+    background-image: url("../images/textbg_blue.png");
+    background-size:130px 130px;
+    width: 130px;
+    height: 130px;
+	line-height:18px;
+    background-repeat:no-repeat;
+    padding: 20px 16px 0 20px;
+	font-weight:bold;
+    color: #ffffff;
+    font-size: 14px;
+}
+.collection{
+    width: 282px;
+    height: 90px;
+    float: right;
+}
+.suoJin{
+    text-indent:2em;
+}
+
+.banner_introduce{
+    text-align: center;
+    height:420px;
+    width:100%;
+	background-image:url(../images/introduce/m1.jpg);
+
+}
+.banner_bg{
+    background-color:#acdaf2;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.banner_news{
+    text-align: center;
+    height:260px;
+    width:100%;
+	background-image:url(../images/news/m2.jpg);
+}
+
+.banner_honour{
+    text-align: center;
+    height:260px;
+    width:100%;
+	background-image:url(../images/honour/m3.jpg);
+}
+.banner_product{
+    text-align: center;
+    height:300px;
+    width:100%;
+	background-image:url(../images/product/m4.jpg);
+}
