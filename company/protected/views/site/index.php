@@ -59,20 +59,22 @@ $this->pageTitle=Yii::app()->name;
     </ol>
     <!-- Carousel items -->    
     <div class="carousel-inner">
-      <div class="active item">
-        <img src="images/banner1.png">
-      </div>
-      <div class="item">
-        <img src="images/banner2.png">
-      </div>
-      <div class="item">
-        <img src="images/banner3.png">
-        <div style="width: 100%;height: 300px;margin-top: -300px;text-align: center">
-            <a href="index.php?r=product/index" target="_blank">
-                <img src="images/banner3_bg.png" width="350" height="300">
-            </a>
-        </div>
-      </div>
+		<div class="active item">
+			<img src="images/banner3.png">
+			<div style="width: 100%;height: 300px;margin-top: -300px;text-align: center">
+				<a href="index.php?r=product/index" target="_blank">
+					<img src="images/banner3_bg.png" width="350" height="280">
+				</a>
+			</div>
+		</div>
+		<div class="item">
+			<img src="images/banner2.png">
+		</div>
+		<div class="item">
+			<img src="images/banner1.png">
+		</div>
+
+      
     </div>
 </div>
 
@@ -110,8 +112,8 @@ $this->pageTitle=Yii::app()->name;
 
 <div class="newsBg" style="padding-top:40px;">
     <div class="content" style="background-color:#ffffff;">
-        <article class="content-left">
-            <section class="content-right-con connected">
+        <div class="content-left">
+            <div class="content-right-con connected">
                 <?php 
                     $this->widget('zii.widgets.CListView', array(
                             'dataProvider'=>$dataProvider1,
@@ -120,8 +122,8 @@ $this->pageTitle=Yii::app()->name;
                             'summaryText'=>'',
                     ));
                 ?>
-            </section>
-            <section class="content-right-con connected">
+            </div>
+            <div class="content-right-con connected">
                 <?php
                 $this->widget('zii.widgets.CListView', array(
                     'dataProvider'=>$dataProvider1_img,
@@ -130,11 +132,11 @@ $this->pageTitle=Yii::app()->name;
                     'summaryText'=>'',
                 ));
                 ?>
-            </section>
-        </article>
+            </div>
+        </div>
 
-        <article class="content-left">
-            <section class="content-right-con posts">
+        <div class="content-left">
+            <div class="content-right-con posts">
                 <?php 
                     $this->widget('zii.widgets.CListView', array(
                             'dataProvider'=>$dataProvider2,
@@ -143,8 +145,8 @@ $this->pageTitle=Yii::app()->name;
                             'summaryText'=>'',
                     ));
                 ?>
-            </section>
-            <section class="content-right-con connected">
+            </div>
+            <div class="content-right-con connected">
                 <?php
                 $this->widget('zii.widgets.CListView', array(
                     'dataProvider'=>$dataProvider2_img,
@@ -153,11 +155,11 @@ $this->pageTitle=Yii::app()->name;
                     'summaryText'=>'',
                 ));
                 ?>
-            </section>
-        </article>
+            </div>
+        </div>
 
-        <article class="content-left">
-            <section class="content-right-con posts">
+        <div class="content-left">
+            <div class="content-right-con posts">
                 <?php 
                     $this->widget('zii.widgets.CListView', array(
                             'dataProvider'=>$dataProvider3,
@@ -166,8 +168,8 @@ $this->pageTitle=Yii::app()->name;
                             'summaryText'=>'',
                     ));
                 ?>
-            </section>
-            <section class="content-right-con connected">
+            </div>
+            <div class="content-right-con connected">
                 <?php
                 $this->widget('zii.widgets.CListView', array(
                     'dataProvider'=>$dataProvider3_img,
@@ -176,8 +178,8 @@ $this->pageTitle=Yii::app()->name;
                     'summaryText'=>'',
                 ));
                 ?>
-            </section>
-        </article>
+            </div>
+        </div>
     </div>
 </div>
 

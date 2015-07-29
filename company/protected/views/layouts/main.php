@@ -29,16 +29,14 @@
 
 <body>
     <!--header begin-->
-    <header class="header">
-        <section class="header-main">
             <div class="logo">
-                <a href="index.php?r=site/index" title="logo"><img src="images/logo.png" width="127" height="90"></a>
-                <a href="Javascript:window.external.addFavorite(document.location.href,document.title)">
-                    <img src="images/logo2.png" class="collection"/>
-                </a>
+                <a class='logoContent'  href="Javascript:window.external.addFavorite(document.location.href,document.title)"><img src="images/logo2.png" class="collection"/></a>
+
+				<a class='logoImg' href="index.php?r=site/index" title="logo"><img src="images/logo.png" width="127" height="90"></a>
+
+				<div class='clear'></div>
             </div>
-        </section>
-    </header>
+
     <!--header end-->
     
     <!--nav begin-->
@@ -55,13 +53,11 @@
     <!--nav end-->
 
     <!--content begin-->
-    <section>
        <?php echo $content; ?>
-    </section>   
     <!--content end-->
 
     <!--footer begin-->
-    <footer class="footer">
+    <div class="footer">
         <div class="link">
             <div style="width:30%;float:left;margin-top:50px">
                 <p style="font-size:18px;">
@@ -90,7 +86,7 @@
             ));
             ?>
         </div>
-    </footer>
+    </div>
     <!--footer end-->
 </body>
 </html>

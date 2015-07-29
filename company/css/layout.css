@@ -6,14 +6,31 @@
   width: 1000px;
   margin: 0 auto; 
 }
-.header-main .logo {
-  padding: 10px; 
+.logo {
+  padding: 10px 0; 
+  width: 1000px;
+  margin: 0 auto; 
+
+}
+.logo a {
+	display:block;
 }
 .header-main .welcome {
   width: 282px;
   height: 90px;
   padding: 10px;
   background: url(../images/logo2.png) no-repeat right;
+}
+.logoImg{
+	float:left;
+}
+.logoContent{
+	float:right;
+}
+.clear{
+	height:0;
+	line-height:0;
+	clear:both;
 }
 
 /*------nav------*/
@@ -230,7 +247,10 @@ line-height: 32px;
   color: #ffffff;
   text-decoration: none; 
 }
-
+.list-view{
+	float:left;
+	display:block;
+}
 p#link{
   float:right;
 }
@@ -357,7 +377,6 @@ p#link{
 .collection{
     width: 282px;
     height: 90px;
-    float: right;
 }
 .suoJin{
     text-indent:2em;
